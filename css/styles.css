@@ -1,0 +1,104 @@
+/* CSS Document */
+* {margin:0; padding:0; border:0;}
+/* font-family: 'Open Sans', sans-serif; 
+   font-family: 'Open Sans Condensed', sans-serif;
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The 	    remaining bottom margin will hold it away from any elements that follow. 
+	padding-right: 15px;
+	padding-left: 15px; }/* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. 
+*/
+
+
+#wrapper { 	width:900px; 
+			margin:0 auto;
+			background-color:#fff;
+			padding:0 40px;
+			}
+		
+	
+body { 	background-image:
+		url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSMWdpj9e6yYrcEc0slOfer4xI18mJhqv-8dHkz2qvBlO2SFOXBsw); 
+		background-repeat:repeat; font-family:Arial, Helvetica, sans-serif;}
+
+/*font family*/
+h1, h2, h3 { font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif; }
+
+#header {}
+#logo 	{ float:left; padding:20px 0; }
+
+#cta 	{ float:right; padding:20px 0; }
+
+
+
+#topnav ul 	{padding: 30px 0; border-top:1px #CCC solid;  }
+
+a:link 		{ color:#000; text-transform:uppercase; }
+a:visited 	{ color:#C30; }
+a:hover 	{ color:#C63; font-weight: bold; text-decoration: underline; }
+
+a { display:block; 
+	padding:5px 10px;
+	text-decoration:none;
+	text-align:center; 
+	}
+	
+ul li { list-style-type:none;
+		display:inline-block; }
+
+h1  { margin:20px 20px 10px 0; padding:20px 0; }
+<!--h2 	{ padding-bottom:20px; } -->
+h2 {margin-top: 20px; }
+
+
+#content { float:left; width:580px; }
+#content h2 { color:#C63}
+#content p { line-height:150%; }
+#content img { margin-top:20px; }
+
+#box1 { width:265px; float:left; margin-right:40px; }
+#box2 { width:265px; float:left; }
+					 
+#sidebar { float:right; width:270px; margin:30px 0 0 0; }
+#sidebar h2 { color:#C63 }
+#sidebar p { line-height:150%; }
+#sidebar img {margin: 20px 0 20px 0; }
+
+form .error{ color:red; }
+form .hidden { display:none; }
+
+#button {margin-top: 10px; }
+
+#footer { clear:both; padding:10px 0; border-top:1px #CCC solid; }
+#footer p { text-align:center; font-size:12px; font-weight:bold; }
+
+accordian $( ".selector" ).accordion({
+  active: 2
+}); // Getter
+var active = $( ".selector" ).accordion( "option", "active" );
+ 
+// Setter
+$( ".selector" ).accordion( "option", "active", 2 );
+
+/* form {
+        font: 90% Arial, Helvetica, sans-serif;
+        margin:20px;
+        }
+    input {
+        width:15em;
+        margin-left:1em;
+        margin-bottom:.5em;
+        }
+    input:focus {
+        border: 2px solid navy;
+        } */
+
+
+
+
+
+
+
+
+
+
